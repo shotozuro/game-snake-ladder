@@ -1,0 +1,147 @@
+/* CSS files add styling rules to your content */
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Open Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+.player {
+  margin-bottom: 20px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100px;
+  height: 100px;
+  margin: 1px;
+  background: #ecf0f1;
+}
+
+.start {
+  background: #f39c12;
+}
+
+.finish {
+  background: #16a085;
+}
+
+#dice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  background: #9b59b6;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+#cheat {
+  display: flex;
+  flex-direction: row
+}
+
+#action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.dice-cheat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: #95a5a6;
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.players {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.player1 {
+  background: #f1c40f;
+  display: flex;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 2px;
+}
+
+.player2 {
+  background: #e74c3c;
+  display: flex;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 2px;
+}
+
+.btn {
+  width: 120px;
+  height: 50px;
+  margin: 2px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.coord {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  margin: 2px;
+  align-items: center;
+  justify-content: center;  
+}
+
+.poin {
+  /* position: absolute; */
+  bottom: 0;
+  right: 0;
+  font-size: 8  px;
+  color: red;
+}
+
+.ladder-start {
+  /* background: #9b59b6; */
+  
+  border-bottom: 3px solid #9b59b6;
+}
+
+.ladder-end {
+  border-top: 2px salmon dashed ;
+  border-bottom: 2px solid #9b59b6;
+}
